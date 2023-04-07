@@ -1,9 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-04-07T13:42:16.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" version="21.1.5" etag="2rmWhQW7W3hYCjplaCnR" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T14:20:33.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="LBuy98D7IIRZkW0AqfcD" version="21.1.5" type="github">
   <diagram name="第 1 页" id="2LzOHWxwbPxm0pwuyz7J">
-    <mxGraphModel>
+    <mxGraphModel dx="993" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U3icaCiNtmCvbXuFY5qW-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U3icaCiNtmCvbXuFY5qW-3" target="U3icaCiNtmCvbXuFY5qW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-3" value="医生查询当前需要录入的儿童的信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U3icaCiNtmCvbXuFY5qW-7" target="U3icaCiNtmCvbXuFY5qW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U3icaCiNtmCvbXuFY5qW-7" target="U3icaCiNtmCvbXuFY5qW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-7" value="当前儿童已经在库中" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="365" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U3icaCiNtmCvbXuFY5qW-10" target="U3icaCiNtmCvbXuFY5qW-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-10" value="对儿童基本信息进行录入" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="372.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-12" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="372.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U3icaCiNtmCvbXuFY5qW-13" target="U3icaCiNtmCvbXuFY5qW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-13" value="显示已有的儿童基本信息" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-15" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="455" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U3icaCiNtmCvbXuFY5qW-16" target="U3icaCiNtmCvbXuFY5qW-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-16" value="修改并且保持儿童的基本信息" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3icaCiNtmCvbXuFY5qW-20" value="结束" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="372.5" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
