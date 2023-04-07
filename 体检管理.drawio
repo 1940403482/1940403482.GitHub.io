@@ -1,9 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2023-04-07T14:22:24.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" version="21.1.5" etag="Cc3uIDi7wCZjv1yLGDMI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T14:31:50.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="buW-my-io6bpDZ3y2ZlP" version="21.1.5" type="github">
   <diagram name="第 1 页" id="Nao4LKiHmBVpsdW0sxl7">
-    <mxGraphModel>
+    <mxGraphModel dx="993" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-1" target="6ePMxOBTWWJZVYdVTySX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-1" target="6ePMxOBTWWJZVYdVTySX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-5" target="6ePMxOBTWWJZVYdVTySX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-5" value="儿童在医院进行体检" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-7" target="6ePMxOBTWWJZVYdVTySX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-7" value="得到体检表格" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-9" target="6ePMxOBTWWJZVYdVTySX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-9" value="医生对体检信息提供针对性建议" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-11" target="6ePMxOBTWWJZVYdVTySX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-11" target="6ePMxOBTWWJZVYdVTySX-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-11" value="查询体检信息" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-13" target="6ePMxOBTWWJZVYdVTySX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-13" target="6ePMxOBTWWJZVYdVTySX-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-13" value="对体检信息进行修改" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-15" target="6ePMxOBTWWJZVYdVTySX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-15" value="将信息录入到系统当中" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="850" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-18" value="结束" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="850" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6ePMxOBTWWJZVYdVTySX-21" target="6ePMxOBTWWJZVYdVTySX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6ePMxOBTWWJZVYdVTySX-21" value="导出体检结果" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
