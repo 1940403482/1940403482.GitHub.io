@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-04-07T14:49:40.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" version="21.1.5" etag="yKHerOK7CQby463PDqxm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T14:56:54.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="SgMQ-rRsHtrgf8mXY9s9" version="21.1.5" type="github">
   <diagram name="第 1 页" id="U5y-jCGaqYIhtgIQpaNX">
-    <mxGraphModel>
+    <mxGraphModel dx="993" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GrciGkzyZuQcE2R150ND-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GrciGkzyZuQcE2R150ND-1" target="GrciGkzyZuQcE2R150ND-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GrciGkzyZuQcE2R150ND-2" target="GrciGkzyZuQcE2R150ND-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-2" value="选中要生成的信息图" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GrciGkzyZuQcE2R150ND-4" target="GrciGkzyZuQcE2R150ND-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-4" value="后台根据体检信息进行检索" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GrciGkzyZuQcE2R150ND-6" target="GrciGkzyZuQcE2R150ND-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-6" value="医生查看相应的信息图" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GrciGkzyZuQcE2R150ND-8" target="GrciGkzyZuQcE2R150ND-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-8" value="给出发育情况评价信息" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GrciGkzyZuQcE2R150ND-10" target="GrciGkzyZuQcE2R150ND-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-10" value="导出" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrciGkzyZuQcE2R150ND-12" value="结束" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
