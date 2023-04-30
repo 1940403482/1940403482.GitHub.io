@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T02:51:14.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="P-DqY89cOJ3FScdRsoTC" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-30T09:25:06.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64" etag="Gxf0Ag_SwLeg6NUcSSWv" version="21.2.3" type="github">
   <diagram name="第 1 页" id="3thGuiAprRQyPqJnQOxM">
     <mxGraphModel dx="993" dy="573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="AUr2q-_A9TYGjcPhR-jA-1" value="医护人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="270" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AUr2q-_A9TYGjcPhR-jA-6" value="添加儿童档案" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="AUr2q-_A9TYGjcPhR-jA-6" value="&lt;p class=&quot;MsoNormal&quot;&gt;添加免疫记录&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="170" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AUr2q-_A9TYGjcPhR-jA-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="AUr2q-_A9TYGjcPhR-jA-6" edge="1">
@@ -41,21 +41,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AUr2q-_A9TYGjcPhR-jA-23" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="228" y="130" width="240" height="387" as="geometry" />
+          <mxGeometry x="228" y="130" width="240" height="372" as="geometry" />
         </mxCell>
-        <mxCell id="AUr2q-_A9TYGjcPhR-jA-24" value="儿童档案管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="AUr2q-_A9TYGjcPhR-jA-23" vertex="1">
-          <mxGeometry y="10" width="100" height="30" as="geometry" />
+        <mxCell id="AUr2q-_A9TYGjcPhR-jA-24" value="儿童免疫管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="AUr2q-_A9TYGjcPhR-jA-23" vertex="1">
+          <mxGeometry x="5" y="12" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="AUr2q-_A9TYGjcPhR-jA-8" value="编辑儿童档案" style="ellipse;whiteSpace=wrap;html=1;" parent="AUr2q-_A9TYGjcPhR-jA-23" vertex="1">
+        <mxCell id="AUr2q-_A9TYGjcPhR-jA-8" value="&lt;p class=&quot;MsoNormal&quot;&gt;删除免疫记录&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="AUr2q-_A9TYGjcPhR-jA-23" vertex="1">
           <mxGeometry x="70" y="132" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AUr2q-_A9TYGjcPhR-jA-9" value="删除儿童档案" style="ellipse;whiteSpace=wrap;html=1;" parent="AUr2q-_A9TYGjcPhR-jA-23" vertex="1">
+        <mxCell id="AUr2q-_A9TYGjcPhR-jA-9" value="&lt;p class=&quot;MsoNormal&quot;&gt;查询免疫记录&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="AUr2q-_A9TYGjcPhR-jA-23" vertex="1">
           <mxGeometry x="70" y="191" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AUr2q-_A9TYGjcPhR-jA-10" value="查询儿童档案" style="ellipse;whiteSpace=wrap;html=1;" parent="AUr2q-_A9TYGjcPhR-jA-23" vertex="1">
+        <mxCell id="AUr2q-_A9TYGjcPhR-jA-10" value="&lt;p class=&quot;MsoNormal&quot;&gt;修改免疫记录&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="AUr2q-_A9TYGjcPhR-jA-23" vertex="1">
           <mxGeometry x="70" y="252" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AUr2q-_A9TYGjcPhR-jA-14" value="导出儿童档案" style="ellipse;whiteSpace=wrap;html=1;" parent="AUr2q-_A9TYGjcPhR-jA-23" vertex="1">
+        <mxCell id="AUr2q-_A9TYGjcPhR-jA-14" value="导出免疫记录" style="ellipse;whiteSpace=wrap;html=1;" parent="AUr2q-_A9TYGjcPhR-jA-23" vertex="1">
           <mxGeometry x="70" y="313" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
