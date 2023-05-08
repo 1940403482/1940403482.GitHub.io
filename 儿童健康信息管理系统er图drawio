@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T03:53:29.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" version="21.2.9" etag="OJ52T6W938iBYJm2ZQzZ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T08:31:18.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="VWyudYoOZnWZYseDeXWo" version="21.2.9" type="github">
   <diagram name="第 1 页" id="Qc7FBSC5H0qLi_38eL0d">
-    <mxGraphModel>
+    <mxGraphModel dx="993" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-1" value="医护人员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-2" value="儿童" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="240" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-3" value="儿童档案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-4" value="体检记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="320" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-5" value="操作" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-6" value="拥有" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gi0gPOYesxD4MgQJSqXd-5" target="Gi0gPOYesxD4MgQJSqXd-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="400" as="sourcePoint" />
+            <mxPoint x="300" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gi0gPOYesxD4MgQJSqXd-1" target="Gi0gPOYesxD4MgQJSqXd-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="420" as="sourcePoint" />
+            <mxPoint x="190" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gi0gPOYesxD4MgQJSqXd-3" target="Gi0gPOYesxD4MgQJSqXd-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="360" as="sourcePoint" />
+            <mxPoint x="570" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gi0gPOYesxD4MgQJSqXd-6" target="Gi0gPOYesxD4MgQJSqXd-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="380" as="sourcePoint" />
+            <mxPoint x="740" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-16" value="缺陷记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-17" value="免疫记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-18" value="操作" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-19" value="操作" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-20" value="拥有" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gi0gPOYesxD4MgQJSqXd-21" value="拥有" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="260" width="94" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
