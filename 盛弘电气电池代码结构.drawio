@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T05:37:32.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" version="21.6.7" etag="oEetY51mCgc-Rg4yA5lA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T10:42:23.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="V37lETAnAN5FyvLAdVmV" version="21.6.7" type="github">
   <diagram name="第 1 页" id="mwWznJ21f6_o5sEEoAnN">
-    <mxGraphModel>
+    <mxGraphModel dx="996" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-16" value="ExportDataExcel" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="328" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXGWGlDPRktR_MX_6pZj-17" target="UXGWGlDPRktR_MX_6pZj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-17" value="HisDataFileCache" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-18" value="HisDataFileHandle" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="359" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-20" value="调用进行处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXGWGlDPRktR_MX_6pZj-21" target="UXGWGlDPRktR_MX_6pZj-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-21" value="数据导出表现层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXGWGlDPRktR_MX_6pZj-23" target="UXGWGlDPRktR_MX_6pZj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-23" value="ExportTemplateCell" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="535" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXGWGlDPRktR_MX_6pZj-24" target="UXGWGlDPRktR_MX_6pZj-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-24" value="表示导出模板的单元格数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="448" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-26" value="ExcportExcelFile" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="535" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXGWGlDPRktR_MX_6pZj-27" target="UXGWGlDPRktR_MX_6pZj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXGWGlDPRktR_MX_6pZj-27" value="实现文件导出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="448" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
